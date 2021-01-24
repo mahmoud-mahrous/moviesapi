@@ -1,0 +1,227 @@
+body
+{
+    box-sizing: border-box;
+    background-color: #0d0d0d;
+}
+
+
+.sideBar
+{
+    position: fixed;
+    height: 100vh;
+    z-index: 9999999;
+    left: -220px;
+}
+
+
+.sideBox 
+{
+    background-color: #0d0d0d;
+    margin-left: 20px;
+    padding-right: 70px;
+    width: 200px;
+    position: relative;
+    z-index: 9999999;
+}
+
+
+.sideBox a p
+{
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 50px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+}
+
+.sideBox a p.fadeInEffect {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-name: fadeInUpBig;
+    animation-fill-mode: forwards;
+}
+
+.sideBox a:nth-child(1) p.fadeInEffect {
+    animation-delay: 0.1s;
+}
+
+.sideBox a:nth-child(2) p.fadeInEffect {
+    animation-delay: 0.2s;
+}
+
+.sideBox a:nth-child(3) p.fadeInEffect {
+    animation-delay: 0.3s;
+}
+
+.sideBox a:nth-child(4) p.fadeInEffect {
+    animation-delay: 0.4s;
+}
+
+.sideBox a:nth-child(5) p.fadeInEffect {
+    animation-delay: 0.5s;
+}
+
+.sideBox a:nth-child(6) p.fadeInEffect {
+    animation-delay: 0.6s;
+}
+
+.social-icons
+{
+    opacity: 0;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-name: fadeInUpBig;
+    animation-fill-mode: forwards;
+}
+
+.sideBtn
+{
+    width: 60px;
+    font-size: 20px;
+}
+
+
+.sideBtn img
+{
+    width: 60%;
+    height: 20o;
+    margin-bottom: 100px;
+    margin-left: 2px;
+}
+
+
+.sideBtn i
+{
+    cursor: pointer;
+}
+
+#btn
+{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#btns .close
+{
+    position: absolute;
+    right: 25px;
+    display: none;
+}
+
+
+
+#btns .open
+{
+    position: absolute;
+    right: 25px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.social-icons
+{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+}
+
+
+.social-icons span
+{
+  font-size: 14px;
+}
+
+
+.social-icons i
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
+.searchInputs input
+{
+
+    background-color: #0d0d0d;
+    border: none;
+    border-bottom: 0.2px solid white;
+}
+
+input::placeholder {  
+                  
+    text-align: center; 
+} 
+
+input[type=text]:focus {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+
+input[type=email]:focus {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+
+input[type=password]:focus {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+
+
+
+
+.films {
+    position: relative;
+    width: 100%;
+}
+.films .img-layer {
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 2s;
+    opacity: 0;
+    background-color: red;
+    font-size: 18px;
+    ;
+}
+
+.film:hover .img-layer {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(0%);
+    top: 0;
+
+}
+
+
+.form input
+{
+
+    background-color: #0d0d0d;
+    border: none;
+    border-bottom: 0.2px solid white;
+}
+
+
+.form p
+{
+    display: none;
+}
