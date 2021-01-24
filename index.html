@@ -1,0 +1,168 @@
+<html>
+
+
+
+
+
+
+<head>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styyle.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="sideBar d-flex">
+
+    <div class="sideBox">
+
+      
+    </div>
+
+    <div class="sideBtn vh-100 bg-white d-flex flex-column align-content-between justify-content-around text-center ">
+
+      <div>
+        <img class="" src="images/Background.svg" alt="">
+      </div>
+
+
+      <div id="btns" class="position-relative">
+        <i class="fas fa-times close"></i>
+        <i id="open" class="fas fa-chevron-right open"></i>
+      </div>
+
+
+      <div class="d-flex flex-column pt-5">
+
+        <i class="fas fa-globe my-3"></i>
+        <i class="fas fa-share-alt"></i>
+      </div>
+    </div>
+   
+  </div>
+
+
+  <section class="searchInputs">
+    <div class="container d-flex mr-5">
+
+      <input class="form-control m-5" type="text" placeholder="get movies by word..." onkeyup="searchMovie(this.value)">
+      <input class="form-control m-5" type="text" placeholder="search..." onkeyup="searchAllMovies(this.value)">
+
+    </div>
+
+    
+  </section>
+
+
+
+  <section class="films p-5 ">
+    <div class="container">
+      <div class="row justify-content-center" id="movies">
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+
+  <section class="form" id="contacts">
+    <div class="container d-flex flex-wrap  mr-5">
+
+      <div class="col-md-6">
+      <div class="w-100 m-4">
+      <input class="form-control " type="text" id="nameInput" placeholder="Enter your Name">
+      <p id="nameAlert" class="text-center mt-1 bg-white rounded p-2 text-danger font-weight-bold">Your Name is not valid</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="col-md-6">
+    <div class="w-100 m-4">
+    <input class="form-control " type="email" id="emailInput" placeholder="Enter your Email">
+    <p id="emailAlert" class="text-center mt-1 bg-white rounded p-2 text-danger font-weight-bold">entre valid email
+    </p>
+  </div>
+</div>
+
+
+<div class="col-md-6">
+  <div class="w-100 m-4">
+  <input class="form-control " type="text" id="phoneInput" placeholder="Enter Phone">
+  <p id="phoneAlert" class="text-center mt-1 bg-white rounded p-2 text-danger font-weight-bold">entre valid phone
+  </p>
+</div>
+</div>
+
+
+
+<div class="col-md-6">
+  <div class="w-100 m-4">
+  <input class="form-control " type="text" id="ageInput" placeholder="Enter Age">
+  <p id="ageAlert" class="text-center mt-1 bg-white rounded p-2 text-danger font-weight-bold">entre valid Age
+  </p>
+</div>
+</div>
+
+
+
+<div class="col-md-6">
+  <div class="w-100 m-4">
+  <input class="form-control " type="password" id="passInput" placeholder="Enter your Password">
+  <p id="passAlert" class="text-center mt-1 bg-white rounded p-2 text-danger font-weight-bold">entre valid password *Minimum eight characters, at least one letter and one number:*
+  </p>
+</div>
+</div>
+
+
+
+<div class="col-md-6">
+  <div class="w-100 m-4">
+  <input class="form-control " type="password" id="retypeInput" placeholder="Retype Password">
+  <p id="retypeAlert" class="text-center mt-1 bg-white rounded p-2 text-danger font-weight-bold">entre valid Repassword</p>
+</div>
+</div>
+
+<a id="submit" class="my-5  btn btn-outline-danger disabled">Submit</a>
+
+
+    
+    </div>
+  </section>
+
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/c589fbe179.js" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+
+
+
+
+</html>
